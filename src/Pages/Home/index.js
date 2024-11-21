@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import { LinkedIn, GitHub, Instagram } from "@mui/icons-material/";
 import useResponsive from "../../hooks/useResponsive";
 const Home = () => {
-  const isDesktop=useResponsive();
+  const isDesktop = useResponsive();
 
   return (
     <>
@@ -17,32 +17,32 @@ const Home = () => {
             display: "flex",
             height: "40%",
             width: "100%",
-            marginTop:isDesktop? 50:20,
-            flexDirection:isDesktop? "row":"column-reverse",
+            marginTop: isDesktop ? 50 : 20,
+            flexDirection: isDesktop ? "row" : "column",
           }}
         >
           <Box
             style={{
               height: "100%",
-              width:isDesktop? "50%":"100%",
+              width: isDesktop ? "50%" : "90%",
               display: "flex",
-              paddingTop:isDesktop?0:10,
+              paddingTop: isDesktop ? 0 : 10,
               alignItems: "center",
               flexDirection: "column",
             }}
           >
-            <Typography variant="h4"> Hii There!</Typography>
+            <Typography variant="h4"> Hi There!</Typography>
             <Typography variant="h4" style={{ marginBottom: 8, marginTop: 2 }}>
-              I'M Rohit Kumar Yadav
+              I'M Rohit Yadav
             </Typography>
-            <Box style={{ paddingLeft:isDesktop? 50:5, width: "55%" }}>
+            <Box style={{ paddingLeft: isDesktop ? 50 : 5, width:isDesktop? "55%":"80%" }}>
               <Typography>
-                With over no any experience in web development, I
-                specialize in creating immersive user experiences using
-                JavaScript and animation libraries. My passion lies in crafting
-                dynamic, responsive applications that leverage the latest
-                front-end and back-end technologies, ensuring seamless and
-                engaging interactions for users.
+                With over no any experience in web development, I specialize in
+                creating immersive user experiences using JavaScript and
+                animation libraries. My passion lies in crafting dynamic,
+                responsive applications that leverage the latest front-end and
+                back-end technologies, ensuring seamless and engaging
+                interactions for users.
               </Typography>
             </Box>
           </Box>
@@ -50,6 +50,7 @@ const Home = () => {
             style={{
               width: "50%",
               display: "flex",
+              paddingTop:isDesktop?0:5,
               // justifyContent: "center",
               alignItems: "ceter",
             }}
@@ -65,12 +66,12 @@ const Home = () => {
         </Box>
         <Box
           style={{
-            height:isDesktop? "50%":250,
+            height: isDesktop ? "50%" : 250,
             // width: "100%",
             display: "flex",
             textAlign: "center",
             padding: 50,
-            marginTop:isDesktop? 20:3,
+            marginTop: isDesktop ? 20 : 3,
             alignItem: "center",
             flexDirection: "column",
           }}
@@ -99,7 +100,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GitHub style={{ fontSize: 40 , color:"black"}} />
+                <GitHub style={{ fontSize: 40, color: "black" }} />
               </a>
             </Box>
             <Box style={{ padding: 10 }}>
@@ -108,16 +109,16 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Instagram style={{ fontSize: 40, color:"black" }} />
+                <Instagram style={{ fontSize: 40, color: "black" }} />
               </a>
             </Box>
-            <Box style={{padding: 10 }}>
+            <Box style={{ padding: 10 }}>
               <a
                 href="https://www.linkedin.com/in/rohityadav102002/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LinkedIn style={{ fontSize: 40, color:"black" }} />
+                <LinkedIn style={{ fontSize: 40, color: "black" }} />
               </a>
             </Box>
           </Box>

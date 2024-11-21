@@ -11,14 +11,13 @@ const About = () => {
         <Box
           style={{
             display: "flex",
-            width: isDesktop ? "90%" : "100%",
+            width: isDesktop ? "90%" : "90%",
             flexDirection: isDesktop ? "row" : "column-reverse",
-           
           }}
         >
           <Box
             style={{
-              width: "50%",
+              width:isDesktop? "50%":"90%",
               display: "flex",
               padding: 10,
               margin: 20,
@@ -29,7 +28,7 @@ const About = () => {
             <Box
               style={{
                 height: "25%",
-                width:isDesktop? "60%":"100%",
+                width: isDesktop ? "60%" : "100%",
               }}
             >
               <Typography variant="h3">About Me</Typography>
@@ -40,7 +39,7 @@ const About = () => {
                 Software Engineer who loves to transform ideas into reality
                 using code.
               </Typography>
-              <Typography>
+              <Typography >
                 Motivated designer and Doveloper and create website with
                 React.js, HTML, CSS, JavaScript
               </Typography>
@@ -81,8 +80,8 @@ const About = () => {
         </Box>
         <Box
           style={{
-            height:isDesktop? "40%":"60%",
-            width: "100%",
+            height: isDesktop ? "40%" : "60%",
+            width: isDesktop ? "100%" : "90%",
             display: "flex",
             flexDirection: isDesktop ? "row" : "column",
           }}
@@ -91,15 +90,15 @@ const About = () => {
             style={{
               width: "50%",
               display: "flex",
-              marginBottom:isDesktop? "30":"0",
+              marginBottom: isDesktop ? "30" : "0",
               justifyContent: "right",
             }}
           >
             <Box
               style={{
                 display: "flex",
-                width:isDesktop? "60%":"70%",
-                padding: 20,
+                width: isDesktop ? "60%" : "71%",
+                padding: 10,
                 flexDirection: "column",
               }}
             >
@@ -114,14 +113,14 @@ const About = () => {
           <Box
             style={{
               height: "100%",
-              width:isDesktop? "50%":"100%",
+              width: isDesktop ? "50%" : "90%",
             }}
           >
             <Box
               style={{
-                height:isDesktop? "100%":300,
-                width:isDesktop? "50%":"100%",
-                padding:isDesktop? 20:40,
+                height: isDesktop ? "100%" : 300,
+                width: isDesktop ? "50%" : "90%",
+                padding: isDesktop ? 10 : 40,
               }}
             >
               <Typography variant="h4">Tools I Use</Typography>

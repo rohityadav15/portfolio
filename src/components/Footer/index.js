@@ -3,7 +3,7 @@ import { Box, Grid, Typography } from "@mui/material";
 import useResponsive from "../../hooks/useResponsive";
 
 const Footer = () => {
-  const isDesktop=useResponsive();
+  const isDesktop = useResponsive();
   return (
     <>
       <Box
@@ -17,7 +17,7 @@ const Footer = () => {
       >
         <Grid container style={{ padding: 20 }}>
           <Grid
-            xs={isDesktop?3:4}
+            xs={isDesktop ? 3 : 4}
             style={{
               display: "flex",
               alignItems: "center",
@@ -37,8 +37,8 @@ const Footer = () => {
               Doveloped by Rohit Kumar Yadav
             </Typography>
           </Grid>
-          <Grid xs={isDesktop?7:2}></Grid>
-          <Grid xs={isDesktop?0.5:2}>
+          <Grid xs={isDesktop ? 7 : 2}></Grid>
+          <Grid xs={isDesktop ? 0.5 : 2}>
             <a
               href="https://github.com/rohityadav15"
               target="_blank"
@@ -47,7 +47,7 @@ const Footer = () => {
               <GitHub style={{ fontSize: 30, color: "white" }} />
             </a>
           </Grid>
-          <Grid xs={isDesktop?0.5:2}>
+          <Grid xs={isDesktop ? 0.5 : 2}>
             <a
               href="https://www.instagram.com/royadav1031/"
               target="_blank"
@@ -56,7 +56,7 @@ const Footer = () => {
               <Instagram style={{ fontSize: 30, color: "white" }} />
             </a>
           </Grid>
-          <Grid xs={isDesktop?0.5:2}>
+          <Grid xs={isDesktop ? 0.5 : 2}>
             <a
               href="https://www.linkedin.com/in/rohityadav102002/"
               target="_blank"
