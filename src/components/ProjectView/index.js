@@ -23,7 +23,7 @@ const ProjectView = ({
     <>
       <Box
         style={{
-          border: "2px solid black",
+          border: "2px solid light grey",
           height: "50%",
           width: isDesktop ? "20%" : "90%",
           textAlign: "center",

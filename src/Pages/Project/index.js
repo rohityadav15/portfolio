@@ -29,7 +29,7 @@ const Project = () => {
             url="https://gurukulguru.com/dashboard/app"
             imageName="school"
             title="GurukulGuru.com"
-            techStack={"Tecnology: ReactJs, Javascript, Redux, Jest."}
+            techStack={"Technology: ReactJs, Javascript, Redux, Jest."}
             module1="Student Information Management"
             module2="Staff and Teacher Management"
             module3="Fee Management"
@@ -39,10 +39,10 @@ const Project = () => {
             module7="School Kit Management"
           />
           <ProjectView
-            url="http://localhost:3000/project"
+            url="https://rohityadav2002.netlify.app/"
             imageName="portfolio"
             title="My Portfolio"
-            techStack={"Tecnology: ReactJs, Javascript, Redux, Jest."}
+            techStack={"Technology: ReactJs, Javascript, Redux, Jest."}
             module1="Introduction/About Me"
             module2="Resume/CV"
             module3="Projects"
@@ -50,6 +50,17 @@ const Project = () => {
             module5="Contact Information"
             module6="Downloadable Portfolio"
             module7="experience"
+          />
+          <ProjectView
+          url="https://entertainment-ui.netlify.app/"
+          imageName="entertainment"
+          title="Entertainment Web"
+          techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
+          module1="Introduction/About Webpage"
+          module2={"Seamless navigation"}
+          module3={"Interconnected Web Pages"}
+          module4={"User Friendly Interface"}
+          module5="Contact Information"
           />
         </Box>
       </Box>
