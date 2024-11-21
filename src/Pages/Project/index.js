@@ -55,7 +55,7 @@ const Project = () => {
           url="https://entertainment-ui.netlify.app/"
           imageName="entertainment"
           title="Entertainment Webpage"
-          techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap, Dreamviewer"}
+          techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
           module1="Introduction/About Webpage"
           module2={"Seamless navigation"}
           module3={"Interconnected Web Pages"}
