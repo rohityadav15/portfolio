@@ -32,8 +32,8 @@ const Project = () => {
             imageName="school"
             title="GurukulGuru.com"
             techStack={"Technology: ReactJs, Javascript, Redux, Jest."}
-            module1="Student Information Management"
-            module2="Staff and Teacher Management"
+            module1="Information Management"
+            module2="Staff Management"
             module3="Fee Management"
             module4="Library Management"
             module5="Expences Management"
@@ -56,7 +56,7 @@ const Project = () => {
           <ProjectView
             url="https://entertainment-ui.netlify.app/"
             imageName="entertainment"
-            title="Entertainment Webpage"
+            title="Entertainment"
             techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
             module1="Introduction/About Webpage"
             module2={"Seamless navigation"}
