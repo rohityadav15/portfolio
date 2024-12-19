@@ -116,7 +116,7 @@ const Contact = () => {
           style={{
             height: "60%",
             width: isDesktop ? "40%" : "90%",
-            border: "2px solid lightgrey",
+            // border: "2px solid lightgrey",
             display: "flex",
             boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
             borderRadius: "1.5%",
