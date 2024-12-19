@@ -19,7 +19,7 @@ const Contact = () => {
   const [snackbarMessage, setSnackbarMessage] = useState("");
   const [snackbarSeverity, setSnackbarSeverity] = useState("success");
 
-  const isDesktop=useResponsive();
+  const isDesktop = useResponsive();
   const handleName = (event) => {
     setName(event.target.value);
   };
@@ -101,6 +101,7 @@ const Contact = () => {
           fontWeight: "bold",
           alignItems: "center",
           textAlign: "center",
+          paddingBottom: 100,
           justifyContent: "center",
           flexDirection: "column",
         }}
@@ -114,9 +115,11 @@ const Contact = () => {
         <Box
           style={{
             height: "60%",
-            width:isDesktop? "40%":"90%",
+            width: isDesktop ? "40%" : "90%",
             border: "2px solid lightgrey",
             display: "flex",
+            boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+            borderRadius: "1.5%",
             alignItems: "center",
             textAlign: "right",
             justifyContent: "center",
