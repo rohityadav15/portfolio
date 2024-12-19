@@ -20,8 +20,6 @@ const Project = () => {
             width: "90%",
             display: "flex",
             margin: 10,
-            // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
-            // borderRadius: "1.5%",
             paddingBottom: 100,
             justifyContent: isDesktop ? "center" : "center",
             flexDirection: isDesktop ? "row" : "column",
