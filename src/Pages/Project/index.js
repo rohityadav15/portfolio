@@ -20,6 +20,8 @@ const Project = () => {
             width: "90%",
             display: "flex",
             margin: 10,
+            // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+            // borderRadius: "1.5%",
             paddingBottom: 100,
             justifyContent: isDesktop ? "center" : "center",
             flexDirection: isDesktop ? "row" : "column",
@@ -52,15 +54,15 @@ const Project = () => {
             module7="experience"
           />
           <ProjectView
-          url="https://entertainment-ui.netlify.app/"
-          imageName="entertainment"
-          title="Entertainment Webpage"
-          techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
-          module1="Introduction/About Webpage"
-          module2={"Seamless navigation"}
-          module3={"Interconnected Web Pages"}
-          module4={"User Friendly Interface"}
-          module5="Contact Information"
+            url="https://entertainment-ui.netlify.app/"
+            imageName="entertainment"
+            title="Entertainment Webpage"
+            techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
+            module1="Introduction/About Webpage"
+            module2={"Seamless navigation"}
+            module3={"Interconnected Web Pages"}
+            module4={"User Friendly Interface"}
+            module5="Contact Information"
           />
         </Box>
       </Box>
