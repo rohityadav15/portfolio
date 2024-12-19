@@ -26,6 +26,8 @@ const ProjectView = ({
           border: "2px solid light grey",
           height: "50%",
           width: isDesktop ? "20%" : "90%",
+          boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+          borderRadius: "1.5%",
           textAlign: "center",
           margin: isDesktop ? 10 : 10,
           marginBottom: 20,
