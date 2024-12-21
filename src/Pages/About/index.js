@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <>
-      <Box>
+      <Box marginBottom={20}>
         <Box
           style={{
             display: "flex",
@@ -17,11 +17,11 @@ const About = () => {
         >
           <Box
             style={{
-              width:isDesktop? "50%":"90%",
+              width: isDesktop ? "50%" : "90%",
               display: "flex",
               padding: 10,
               margin: 20,
-
+              marginBottom: 0,
               justifyContent: "right",
             }}
           >
@@ -39,7 +39,7 @@ const About = () => {
                 Software Engineer who loves to transform ideas into reality
                 using code.
               </Typography>
-              <Typography >
+              <Typography>
                 Motivated designer and Doveloper and create website with
                 React.js, HTML, CSS, JavaScript
               </Typography>
