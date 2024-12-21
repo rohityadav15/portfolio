@@ -7,7 +7,15 @@ const About = () => {
 
   return (
     <>
-      <Box marginBottom={20}>
+      <Box
+        style={{
+          // display: "flex",
+          marginBottom: isDesktop? 120:120,
+          margin:20,
+          boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+          borderRadius: "1.5%",
+        }}
+      >
         <Box
           style={{
             display: "flex",
@@ -83,6 +91,7 @@ const About = () => {
             height: isDesktop ? "40%" : "60%",
             width: isDesktop ? "100%" : "90%",
             display: "flex",
+            marginBottom: isDesktop ? 80 : 0,
             flexDirection: isDesktop ? "row" : "column",
           }}
         >
