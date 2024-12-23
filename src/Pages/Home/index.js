@@ -11,7 +11,7 @@ const Home = () => {
           display: "flex",
           boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
-          margin:20,
+          margin: 20,
           flexDirection: "column",
         }}
       >
@@ -29,8 +29,11 @@ const Home = () => {
               height: "100%",
               width: isDesktop ? "50%" : "90%",
               display: "flex",
+              boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+              borderRadius: "1.5%",
               paddingTop: isDesktop ? 0 : 10,
               alignItems: "center",
+              marginLeft: 20,
               flexDirection: "column",
             }}
           >
@@ -38,7 +41,12 @@ const Home = () => {
             <Typography variant="h4" style={{ marginBottom: 8, marginTop: 2 }}>
               I'M Rohit Yadav
             </Typography>
-            <Box style={{ paddingLeft: isDesktop ? 50 : 5, width:isDesktop? "55%":"80%" }}>
+            <Box
+              style={{
+                paddingLeft: isDesktop ? 50 : 5,
+                width: isDesktop ? "55%" : "80%",
+              }}
+            >
               <Typography>
                 With over no any experience in web development, I specialize in
                 creating immersive user experiences using JavaScript and
@@ -53,8 +61,12 @@ const Home = () => {
             style={{
               width: "50%",
               display: "flex",
-              paddingTop:isDesktop?0:5,
+              paddingTop: isDesktop ? 0 : 5,
               // justifyContent: "center",
+              // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+              // borderRadius: "1.5%",
+              marginLeft: 20,
+              marginRight: 20,
               alignItems: "ceter",
             }}
           >
@@ -73,6 +85,9 @@ const Home = () => {
             // width: "100%",
             display: "flex",
             textAlign: "center",
+            // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+            // borderRadius: "1.5%",
+            // margin:20,
             padding: 50,
             marginTop: isDesktop ? 20 : 3,
             alignItem: "center",
