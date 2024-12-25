@@ -28,7 +28,7 @@ const Home = () => {
           <Box
             style={{
               height: "100%",
-              width: isDesktop ? "50%" : "90%",
+              width: isDesktop ? "50%" : "95%",
               display: "flex",
               boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
               borderRadius: "1.5%",
@@ -60,7 +60,7 @@ const Home = () => {
           </Box>
           <Box
             style={{
-              width: "50%",
+              width: isDesktop ? "50%" : "95%",
               display: "flex",
               paddingTop: isDesktop ? 0 : 5,
               // justifyContent: "center",
@@ -75,20 +75,20 @@ const Home = () => {
               height={250}
               width={250}
               alt="User profile"
-              style={{ borderRadius: 125, marginLeft: 50 }}
+              style={{ borderRadius: 125, marginLeft: 50 ,marginTop:20}}
             />
           </Box>
         </Box>
         <Box
           style={{
-            height: isDesktop ? "50%" : 250,
+            height: isDesktop ? "50%" : 170,
             // width: "100%",
             display: "flex",
             textAlign: "center",
             boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
             borderRadius: "1.5%",
             padding: 50,
-            marginBottom:80,
+            marginBottom:40,
             marginLeft:20,
             marginRight:20,
             marginTop: isDesktop ? 20 : 3,
