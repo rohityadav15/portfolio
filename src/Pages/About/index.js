@@ -70,7 +70,6 @@ const About = () => {
           </Box>
           <Box
             style={{
-              backgroundColor: "light Yellow",
               height: "25%",
               width: "50%",
             }}
@@ -98,7 +97,7 @@ const About = () => {
           <Box
             style={{
               width: "50%",
-              display: "flex",
+              display:isDesktop ? "flex" : "0",
               marginBottom: isDesktop ? "30" : "0",
               justifyContent: "right",
             }}
@@ -106,8 +105,9 @@ const About = () => {
             <Box
               style={{
                 display: "flex",
-                width: isDesktop ? "60%" : "71%",
-                padding: 10,
+                width: isDesktop ? "60%" : "60%",
+                padding: isDesktop ? 10 : 10,
+                marginLeft:30,
                 flexDirection: "column",
               }}
             >
