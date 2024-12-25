@@ -12,6 +12,7 @@ const Home = () => {
           boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
           margin: 20,
+          marginBottom:80,
           flexDirection: "column",
         }}
       >
