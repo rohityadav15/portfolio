@@ -82,7 +82,6 @@ const Home = () => {
         <Box
           style={{
             height: isDesktop ? "50%" : 170,
-            // width: "100%",
             display: "flex",
             textAlign: "center",
             boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
