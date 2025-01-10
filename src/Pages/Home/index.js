@@ -22,6 +22,7 @@ const Home = () => {
             height: "40%",
             width: "100%",
             marginTop: isDesktop ? 50 : 20,
+            backgroundColor:"pink",
             flexDirection: isDesktop ? "row" : "column",
           }}
         >
