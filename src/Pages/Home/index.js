@@ -9,10 +9,12 @@ const Home = () => {
       <Box
         style={{
           display: "flex",
+          alignItems:"center",
+          justifyContent:"center",
           boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
           margin: 20,
-          marginBottom:80,
+          marginBottom: 80,
           flexDirection: "column",
         }}
       >
@@ -20,19 +22,22 @@ const Home = () => {
           style={{
             display: "flex",
             height: "40%",
-            width: "100%",
+            width: "70%",
             marginTop: isDesktop ? 50 : 20,
+            // backgroundColor: "pink",
             flexDirection: isDesktop ? "row" : "column",
+            // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+            borderRadius: "1.5%",
           }}
         >
           <Box
             style={{
               height: "100%",
-              width: isDesktop ? "50%" : "95%",
+              width: isDesktop ? "70%" : "95%",
               display: "flex",
-              boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
-              borderRadius: "1.5%",
-              margin: 20,
+              // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+              // borderRadius: "1.5%",
+              marginTop: 20,
               paddingTop: isDesktop ? 0 : 10,
               alignItems: "center",
               flexDirection: "column",
@@ -44,8 +49,8 @@ const Home = () => {
             </Typography>
             <Box
               style={{
-                paddingLeft: isDesktop ? 50 : 5,
-                width: isDesktop ? "55%" : "80%",
+                // paddingLeft: isDesktop ? 50 : 5,
+                width: isDesktop ? "80%" : "80%",
               }}
             >
               <Typography>
@@ -60,12 +65,11 @@ const Home = () => {
           </Box>
           <Box
             style={{
-              width: isDesktop ? "50%" : "95%",
+              width: isDesktop ? "20%" : "95%",
               display: "flex",
               paddingTop: isDesktop ? 0 : 5,
               // justifyContent: "center",
-              boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
-              borderRadius: "1.5%",
+
               margin: 20,
               alignItems: "ceter",
             }}
@@ -75,7 +79,11 @@ const Home = () => {
               height={250}
               width={250}
               alt="User profile"
-              style={{ borderRadius: 125, marginLeft: 50 ,marginTop:20}}
+              style={{
+                borderRadius: 125,
+                // marginTop: 20,
+                boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+              }}
             />
           </Box>
         </Box>
@@ -87,9 +95,9 @@ const Home = () => {
             boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
             borderRadius: "1.5%",
             padding: 50,
-            marginBottom:40,
-            marginLeft:20,
-            marginRight:20,
+            marginBottom: 40,
+            marginLeft: 20,
+            marginRight: 20,
             marginTop: isDesktop ? 20 : 3,
             alignItem: "center",
             flexDirection: "column",
