@@ -41,6 +41,7 @@ const Header = () => {
       style={{
         display: "flex",
         height: "10%",
+        width: isDesktop ? "100%" : "80%",
         backgroundColor: "black",
       }}
     >
