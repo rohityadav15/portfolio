@@ -11,7 +11,7 @@ const Home = () => {
           display: "flex",
           alignItems:"center",
           justifyContent:"center",
-          boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+          // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
           margin: 20,
           marginBottom: 80,
