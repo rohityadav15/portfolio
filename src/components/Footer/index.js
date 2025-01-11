@@ -9,7 +9,7 @@ const Footer = () => {
       <Box
         style={{
           height: "10%",
-          width: "100%",
+          width:isDesktop ? "100%" :"80%",
           backgroundColor: "black",
           position: "fixed",
           bottom: 0,
@@ -67,7 +67,7 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Box>
-    </>
+    </> 
   );
 };
 export default Footer;

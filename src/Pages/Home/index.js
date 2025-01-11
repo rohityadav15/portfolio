@@ -11,7 +11,7 @@ const Home = () => {
           display: "flex",
           alignItems:"center",
           justifyContent:"center",
-          boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
+          // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
           margin: 20,
           marginBottom: 80,
@@ -24,9 +24,7 @@ const Home = () => {
             height: "40%",
             width: "70%",
             marginTop: isDesktop ? 50 : 20,
-            // backgroundColor: "pink",
             flexDirection: isDesktop ? "row" : "column",
-            // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
             borderRadius: "1.5%",
           }}
         >
@@ -35,8 +33,6 @@ const Home = () => {
               height: "100%",
               width: isDesktop ? "70%" : "95%",
               display: "flex",
-              // boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
-              // borderRadius: "1.5%",
               marginTop: 20,
               paddingTop: isDesktop ? 0 : 10,
               alignItems: "center",
@@ -49,7 +45,6 @@ const Home = () => {
             </Typography>
             <Box
               style={{
-                // paddingLeft: isDesktop ? 50 : 5,
                 width: isDesktop ? "80%" : "80%",
               }}
             >
@@ -68,10 +63,9 @@ const Home = () => {
               width: isDesktop ? "20%" : "95%",
               display: "flex",
               paddingTop: isDesktop ? 0 : 5,
-              // justifyContent: "center",
-
               margin: 20,
               alignItems: "ceter",
+              justifyContent:"center",
             }}
           >
             <img
@@ -81,7 +75,6 @@ const Home = () => {
               alt="User profile"
               style={{
                 borderRadius: 125,
-                // marginTop: 20,
                 boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
               }}
             />
@@ -92,8 +85,6 @@ const Home = () => {
             height: isDesktop ? "50%" : 170,
             display: "flex",
             textAlign: "center",
-            boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
-            borderRadius: "1.5%",
             padding: 50,
             marginBottom: 40,
             marginLeft: 20,
