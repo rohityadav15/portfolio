@@ -114,7 +114,7 @@ const Contact = () => {
         </Typography>
         <Box
           style={{
-            height: "60%",
+            height: "70%",
             width: isDesktop ? "40%" : "90%",
             border: "2px solid lightgrey",
             display: "flex",
