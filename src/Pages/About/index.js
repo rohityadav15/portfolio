@@ -12,6 +12,7 @@ const About = () => {
           // display: "flex",
           marginBottom: isDesktop? 120:120,
           margin:20,
+          width: isDesktop? "100%" : "80%",
           boxShadow: "0px 4px 10px rgba(2, 2, 2, 2)",
           borderRadius: "1.5%",
         }}

@@ -12,7 +12,7 @@ function App() {
     <router>
       <Header />
 
-      <Box style={{height: "80%"}}>
+      <Box style={{height: "80%",}}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
