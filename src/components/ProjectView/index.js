@@ -36,8 +36,8 @@ const ProjectView = ({
       >
         <img
           src={`./images/${imageName}.jpeg`}
-          height={200}
-          width={250}
+          height={180}
+          width={200}
           alt="school profile"
           style={{ padding: 2 }}
         />
