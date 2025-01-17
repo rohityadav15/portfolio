@@ -56,9 +56,9 @@ const Project = () => {
             imageName="entertainment"
             title="Entertainment"
             techStack={"Technogy: HTML, CSS, JavaScript, Bootstrap"}
-            module1="Introduction/About Webpage"
+            module1="Introduction/Webpage"
             module2={"Seamless navigation"}
-            module3={"Interconnected Web Pages"}
+            module3={"Interconnected Pages"}
             module4={"User Friendly Interface"}
             module5="Contact Information"
           />
