@@ -50,7 +50,7 @@ const About = () => {
               </Typography>
               <Typography>
                 Motivated designer and Doveloper and create website with
-                React.js, HTML, CSS, JavaScript
+                React.js, HTML, CSS, JavaScript.
               </Typography>
               <Typography style={{ textAlign: "left" }}>
                 Apart from coding, some other activities that I love to do!
