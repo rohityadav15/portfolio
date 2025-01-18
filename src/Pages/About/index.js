@@ -136,7 +136,7 @@ const About = () => {
               <Typography variant="h4">Tools I Use</Typography>
               <li>Visual Studio.</li>
               <li>Git.</li>
-              <li>Chrome DevTools</li>
+              <li>Chrome DevTools.</li>
               <li>Npm (Node Package Manager)</li>
               <li>Atom</li>
               <li>Sublime Text</li>
