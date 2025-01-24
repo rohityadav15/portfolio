@@ -139,7 +139,7 @@ const About = () => {
               <li>Chrome DevTools.</li>
               <li>Npm (Node Package Manager).</li>
               <li>Atom.</li>
-              <li>Sublime Text</li>
+              <li>Sublime Text.</li>
               <li>Postman</li>
             </Box>
           </Box>
