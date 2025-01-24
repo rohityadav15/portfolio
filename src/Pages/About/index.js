@@ -140,7 +140,7 @@ const About = () => {
               <li>Npm (Node Package Manager).</li>
               <li>Atom.</li>
               <li>Sublime Text.</li>
-              <li>Postman</li>
+              <li>Postman.</li>
             </Box>
           </Box>
         </Box>
