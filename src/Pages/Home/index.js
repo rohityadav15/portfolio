@@ -102,7 +102,7 @@ const Home = () => {
             collaboration.
           </Box>
           <Box>
-            <Typography>Feel free to connect with me</Typography>
+            <Typography>Feel free to connect with me.</Typography>
           </Box>
           <Box
             style={{

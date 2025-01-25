@@ -57,7 +57,7 @@ const About = () => {
               </Typography>
               <Stack direction={"row"}>
                 <ArrowForwardRounded />
-                <Typography>Playing Games</Typography>
+                <Typography>Playing Games.</Typography>
               </Stack>
               <Stack direction={"row"}>
                 <ArrowForwardRounded />
