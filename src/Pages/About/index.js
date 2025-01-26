@@ -65,7 +65,7 @@ const About = () => {
               </Stack>
               <Stack direction={"row"}>
                 <ArrowForwardRounded />
-                <Typography>Travelling</Typography>
+                <Typography>Travelling.</Typography>
               </Stack>
             </Box>
           </Box>
